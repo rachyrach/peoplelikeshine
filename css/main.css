@@ -46,6 +46,20 @@ p {
 } 
 }
 
+.products {
+    width: 800px;
+}
+.products-list {
+ list-style: none;
+display: block;
+
+}
+
+.thumbnail {
+ width: 100%;
+    height: auto;
+}
+
 /* --------------------- FORM STYLING --------------------- */
 #contact-form {
     width:100%; 
