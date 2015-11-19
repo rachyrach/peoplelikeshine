@@ -1,0 +1,16 @@
+- name: The Real Teal
+  price: 34.99
+  slug: the-real-teal
+  sku: TRT
+  image: /images/br-teal.jpg
+
+- name: Pearl Girl
+  price: pearl-girl
+  sku: PG
+  image: /images/br-pearl.jpg
+
+- name: Classic Black
+  price: 34.99
+  slug: classic-black
+  sku: CB
+  image: /images/bracelet-black.jpg
