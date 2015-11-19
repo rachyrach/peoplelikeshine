@@ -2,8 +2,6 @@
 layout: default
 title: Products
 ---
-<h1>test</h1>
-
 <div class="products">
 
 <h1>Bracelets</h1>
@@ -21,7 +19,7 @@ title: Products
           data-item-image="{{product.image}}"
           data-item-url="{{site.baseurl}}"
           data-item-price="{{product.price}}">
-          Buy it for {{product.price}} $
+          Buy it for ${{product.price}}
         </button>
       </li>
     {% endfor %}

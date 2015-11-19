@@ -47,7 +47,7 @@ p {
 }
 
 .products {
-    width: 800px;
+    text-align: center;
 }
 .products-list {
  list-style: none;
