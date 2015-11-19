@@ -1,0 +1,215 @@
+/* ------------------------- MENU  ------------------------- */*,
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+background: #fff;
+}
+
+.home-bg {
+    background-image: url(/images/bg.gif);
+      background-repeat: repeat-x repeat-y;
+    background-position: left top;
+    width: 100%;
+    height: 100%;
+}
+.construction {
+    margin: 20%;
+    padding: 50px;
+    background-color: rgba(255,255,255,.9);
+}
+h1 {
+  font-family: "lust-display-didone",sans-serif;
+    text-align: center;
+    font-size: 3em;
+    color: #603584;
+  }
+
+p {
+  font-family: "adelle-sans",sans-serif;
+    font-size: 1.2em;
+  }
+
+.fa-center{
+   text-align: center;
+}
+.fa-center i{
+    margin: 0px 5px 30px 5px;
+}
+
+@media (max-width: 800px) {
+   .construction {
+    margin: 12%;
+    padding: 17px;
+    background-color: rgba(255,255,255,.9);
+} 
+}
+
+/* --------------------- FORM STYLING --------------------- */
+#contact-form {
+    width:100%; 
+    position:relative;
+    left:0;
+    padding-bottom: 50px;
+}
+ 
+
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+    text-align: left; 
+    color: #603584;
+
+}
+ 
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+    width:100%;
+    border: 1px solid #000;
+    margin-bottom:20px;
+    padding:10px 0; 
+        background-color: #fff;
+        padding-left: 10px;
+}
+ 
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+       border: 3px solid #603584;
+    background-color: #fff;
+}
+ 
+#contact-form textarea {
+    height:100px;
+    resize: none;
+}
+ 
+#contact-form label {
+    display:block;
+}
+
+ 
+#contact-form #submit-button {
+    width: 130px;
+    padding-left: 0;
+    color:#FFF;
+    border:none;
+    display:block;
+    float:right;
+      text-align: center; 
+    text-transform: uppercase;
+    margin-bottom:0px;
+    background-color: #000;
+
+}
+ 
+#contact-form #submit-button:hover {
+    background-color: #603584;
+}
+ 
+#contact-form #submit-button:active {
+    position:relative;
+    top:1px;
+}
+ 
+#contact-form #loading {
+    width:32px;
+    height:32px;
+    display:block;
+    position:absolute;
+    right:130px;
+    bottom:16px;
+    display:none;
+}
+ 
+#errors {
+    border:solid 1px #603584;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    display:none;
+}
+ 
+#errors li {
+    padding:2px;
+    list-style:none;    
+}
+ 
+#errors li:before {
+    content: ' - ';    
+}
+ 
+#errors #info {
+    font-weight:bold;
+}
+ 
+#errors #info:before {
+    content: '';    
+}
+ 
+#success {
+    border:solid 1px #603584;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    background:#fff;
+    font-weight:bold;
+    display:none;
+}
+ 
+#errors.visible, #success.visible {
+    display:block;    
+}
+ 
+#req-field-desc {
+    font-style:italic;
+}
+
+.required {
+        color: #603584;
+}
+ 
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+
+
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.entry-content img, 
+.entry-content iframe, 
+.entry-content object, 
+.entry-content embed {
+        max-width: 100%;
+}
+
+ 
